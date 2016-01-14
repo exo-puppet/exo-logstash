@@ -1,6 +1,6 @@
 class logstash::params {
   $version        = $logstash::version ? {
-    undef   => "1.5.4",
+    undef   => "1.5.6",
     default => $logstash::version
   }
 
